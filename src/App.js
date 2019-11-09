@@ -10,7 +10,8 @@ import {
   Gameplay,
   StartGame,
   PlayGame,
-  EndGame
+  EndGame,
+  CreateQuestions
 } from 'app/views';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/admin/start-game/:gameId' component={StartGame}/> 
           <Route exact path='/admin/play-game/:gameId' component={PlayGame}/>
           <Route exact path='/admin/end-game/:gameId' component={EndGame}/>
+          <Route exact path='/admin/create' component={CreateQuestions}/>
         </Switch>
       </Router>
     </div>
