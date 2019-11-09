@@ -1,5 +1,5 @@
 # HackHoot Frontend
-Welcome to the HackHoot Frontend Workshop!
+Welcome to the HackHoot Frontend Workshop! To see the completed version of HackHoot Frontend, please go to https://github.com/takrishn/hackhoot-frontend-finished.
 
 ## What will be covered in this workshop?
 - Basic CSS/HTML

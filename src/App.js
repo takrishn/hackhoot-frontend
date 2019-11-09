@@ -8,7 +8,6 @@ import {
   Home,
   Admin,
   Gameplay,
-  CreateQuestions,
   StartGame,
   PlayGame,
   EndGame
@@ -22,7 +21,6 @@ function App() {
           <Route exact path='/' component={Home}/>
           <Route exact path='/admin' component={Admin}/>
           <Route exact path='/gameplay/:gameId' component={Gameplay}/>
-          <Route exact path='/admin/create-questions' component={CreateQuestions}/>
           <Route exact path='/admin/start-game/:gameId' component={StartGame}/> 
           <Route exact path='/admin/play-game/:gameId' component={PlayGame}/>
           <Route exact path='/admin/end-game/:gameId' component={EndGame}/>
